@@ -1,4 +1,4 @@
-Application Example
+Application Tarian Tradisional
 ===================
 
 version 1.0.1 Tue 25 Dec 2015
