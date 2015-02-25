@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yanti.tari_tradisional.tatra" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+`
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".VideoI"
+            android:label="@string/title_activity_video_i" >
+        </activity>
+        <activity
+            android:name=".ListVideoII"
+            android:label="@string/title_activity_list_video_ii" >
+        </activity>
+        <activity
+            android:name=".ListVideoIII"
+            android:label="@string/title_activity_list_video_iii" >
+        </activity>
+        <activity
+            android:name=".ListVideoIV"
+            android:label="@string/title_activity_list_video_iv" >
+        </activity>
+        <activity
+            android:name=".Tarian"
+            android:label="@string/title_activity_tarian" >
+        </activity>
+        <activity
+            android:name=".Video"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name=".tampilanvideo"
+            android:label="@string/title_activity_tampilanvideo"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".TarianKepulauanRiau"
+            android:label="@string/title_activity_tarian_kepulauan_riau" >
+        </activity>
+        <activity
+            android:name=".TampilanVideoKepulauanRiau"
+            android:label="@string/title_activity_tampilan_video_kepulauan_riau" >
+        </activity>
+        <activity
+            android:name=".webview"
+            android:label="@string/title_activity_webview" >
+        </activity>
+        <activity
+            android:name=".webviewmaluku"
+            android:label="@string/title_activity_webviewmaluku" >
+        </activity>
+        <activity
+            android:name=".webviewkriau"
+            android:label="@string/title_activity_webviewkriau" >
+        </activity>
+        <activity
+            android:name=".Tampilanvideokicir"
+            android:label="@string/title_activity_tampilanvideokicir" >
+        </activity>
+        <activity
+            android:name=".Tampilanvideonandak"
+            android:label="@string/title_activity_tampilanvideonandak" >
+        </activity>
+        <activity
+            android:name=".Tampilanvideojali"
+            android:label="@string/title_activity_tampilanvideojali" >
+        </activity>
+        <activity
+            android:name=".Tampilanvideopersembahan"
+            android:label="@string/title_activity_tampilanvideopersembahan" >
+        </activity>
+        <activity
+            android:name=".Tampilantabalgepita"
+            android:label="@string/title_activity_tampilantabalgepita" >
+        </activity>
+        <activity
+            android:name=".Tampilanvideogemelan"
+            android:label="@string/title_activity_tampilanvideogemelan" >
+        </activity>
+        <activity
+            android:name=".webviewkicir"
+            android:label="@string/title_activity_webviewkicir" >
+        </activity>
+        <activity
+            android:name=".webviewnandak"
+            android:label="@string/title_activity_webviewnandak" >
+        </activity>
+        <activity
+            android:name=".webviewjali"
+            android:label="@string/title_activity_webviewjali" >
+        </activity>
+        <activity
+            android:name=".webviewgemelan"
+            android:label="@string/title_activity_webviewgemelan" >
+        </activity>
+        <activity
+            android:name=".webviewpersembahan"
+            android:label="@string/title_activity_webviewpersembahan" >
+        </activity>
+        <activity
+            android:name=".webviewtabalgepita"
+            android:label="@string/title_activity_webviewtabalgepita" >
+        </activity>
+        <activity
+            android:name=".Tarianaceh"
+            android:label="@string/title_activity_tarianaceh" >
+        </activity>
+        <activity
+            android:name=".tarianjwtimur"
+            android:label="@string/title_activity_tarianjwtimur" >
+        </activity>
+        <activity
+            android:name=".taribali"
+            android:label="@string/title_activity_taribali" >
+        </activity>
+        <activity
+            android:name=".Tampilanvideopendet"
+            android:label="@string/title_activity_tampilanvideopendet" >
+        </activity>
+        <activity
+            android:name=".Tampilanvideokecak"
+            android:label="@string/title_activity_tampilanvideokecak" >
+        </activity>
+        <activity
+            android:name=".tampilanvideoremong"
+            android:label="@string/title_activity_tampilanvideoremong" >
+        </activity>
+        <activity
+            android:name=".tampilanvideoreog"
+            android:label="@string/title_activity_tampilanvideoreog" >
+        </activity>
+        <activity
+            android:name=".tampilanvideoseudati"
+            android:label="@string/title_activity_tampilanvideoseudati" >
+        </activity>
+        <activity
+            android:name=".tampilanvideosaman"
+            android:label="@string/title_activity_tampilanvideosaman" >
+        </activity>
+        <activity
+            android:name=".webviewremong"
+            android:label="@string/title_activity_webviewremong" >
+        </activity>
+        <activity
+            android:name=".webviewreog"
+            android:label="@string/title_activity_webviewreog" >
+        </activity>
+        <activity
+            android:name=".webviewseudati"
+            android:label="@string/title_activity_webviewseudati" >
+        </activity>
+        <activity
+            android:name=".webviewsaman"
+            android:label="@string/title_activity_webviewsaman" >
+        </activity>
+        <activity
+            android:name=".webviewkecak"
+            android:label="@string/title_activity_webviewkecak" >
+        </activity>
+        <activity
+            android:name=".webviewpendet"
+            android:label="@string/title_activity_webviewpendet" >
+        </activity>
+        <activity
+            android:name=".tarianntb"
+            android:label="@string/title_activity_tarianntb" >
+        </activity>
+        <activity
+            android:name=".tarianpbarat"
+            android:label="@string/title_activity_tarianpbarat" >
+        </activity>
+        <activity
+            android:name=".tariansutara"
+            android:label="@string/title_activity_tariansutara" >
+        </activity>
+        <activity
+            android:name=".tarianyogya"
+            android:label="@string/title_activity_tarianyogya" >
+        </activity>
+        <activity
+            android:name=".tariangrntl"
+            android:label="@string/title_activity_tariangrntl" >
+        </activity>
+        <activity
+            android:name=".tampilanvideompaa"
+            android:label="@string/title_activity_tampilanvideompaa" >
+        </activity>
+        <activity
+            android:name=".tampilanvideosungai"
+            android:label="@string/title_activity_tampilanvideosungai" >
+        </activity>
+        <activity
+            android:name=".tampilanvideosutara"
+            android:label="@string/title_activity_tampilanvideosutara" >
+        </activity>
+        <activity
+            android:name=".tampilanvideoyogyakarta"
+            android:label="@string/title_activity_tampilanvideoyogyakarta" >
+        </activity>
+        <activity
+            android:name=".tampilanvideogorontalo"
+            android:label="@string/title_activity_tampilanvideogorontalo" >
+        </activity>
+        <activity
+            android:name=".webviewntb"
+            android:label="@string/title_activity_webviewntb" >
+        </activity>
+        <activity
+            android:name=".webviewpapuabrt"
+            android:label="@string/title_activity_webviewpapuabrt" >
+        </activity>
+        <activity
+            android:name=".webviewsulawesiutara"
+            android:label="@string/title_activity_webviewsulawesiutara" >
+        </activity>
+        <activity
+            android:name=".webviewygykrt"
+            android:label="@string/title_activity_webviewygykrt" >
+        </activity>
+        <activity
+            android:name=".webviewgrntl"
+            android:label="@string/title_activity_webviewgrntl" >
+        </activity>
+        <activity
+            android:name=".webviewkselatan"
+            android:label="@string/title_activity_webviewkselatan" >
+        </activity>
+        <activity
+            android:name=".webviewktimur"
+            android:label="@string/title_activity_webviewktimur" >
+        </activity>
+        <activity
+            android:name=".webviewlampung"
+            android:label="@string/title_activity_webviewlampung" >
+        </activity>
+        <activity
+            android:name=".tariankselatan"
+            android:label="@string/title_activity_tariankselatan" >
+        </activity>
+        <activity
+            android:name=".tarianktimur"
+            android:label="@string/title_activity_tarianktimur" >
+        </activity>
+        <activity
+            android:name=".tarianlampung"
+            android:label="@string/title_activity_tarianlampung" >
+        </activity>
+        <activity
+            android:name=".tarianmaluku"
+            android:label="@string/title_activity_tarianmaluku" >
+        </activity>
+        <activity
+            android:name=".tampilanvideokselatan"
+            android:label="@string/title_activity_tampilanvideokselatan" >
+        </activity>
+        <activity
+            android:name=".tampilanvideoktimur"
+            android:label="@string/title_activity_tampilanvideoktimur" >
+        </activity>
+        <activity
+            android:name=".tampilanvideolampung"
+            android:label="@string/title_activity_tampilanvideolampung" >
+        </activity>
+        <activity
+            android:name=".tampilanvideomaluku"
+            android:label="@string/title_activity_tampilanvideomaluku" >
+        </activity>
+    </application>
+
+</manifest>
